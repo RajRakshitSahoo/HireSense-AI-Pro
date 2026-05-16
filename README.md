@@ -341,7 +341,7 @@ curl -X POST http://localhost:8000/api/resume/upload \
 
 | Name | Role |
 |------|------|
-| Your Name | Full Stack Developer |
+| Raj Rakshit Sahoo | Web Developer |
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) and open a pull request.
 
