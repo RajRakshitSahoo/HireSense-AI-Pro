@@ -1,0 +1,29 @@
+# ── Web Framework ─────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy==2.0.31
+aiosqlite==0.20.0          # SQLite async driver (default)
+# asyncpg==0.29.0           # Uncomment for PostgreSQL
+
+# ── Auth ──────────────────────────────────────────────────────────────────────
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ── Settings ──────────────────────────────────────────────────────────────────
+pydantic-settings==2.3.1
+python-dotenv==1.0.1
+python-multipart==0.0.9
+
+# ── File Parsing ──────────────────────────────────────────────────────────────
+pdfplumber==0.11.4
+python-docx==1.1.2
+
+# ── AI Providers (install the one(s) you need) ────────────────────────────────
+anthropic>=0.28.0              # Claude — set AI_PROVIDER=anthropic (recommended)
+# google-generativeai>=0.7.0  # Gemini — uncomment & set AI_PROVIDER=gemini
+# openai>=1.30.0              # GPT-4 — uncomment & set AI_PROVIDER=openai
+
+# ── Language Detection (optional, for multi-language analysis) ────────────────
+# langdetect==1.0.9            # Uncomment to enable language detection
